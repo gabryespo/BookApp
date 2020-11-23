@@ -1,0 +1,64 @@
+.book{
+    border-radius: 10px;
+    box-shadow: 0px 5px 20px rgba(243, 214, 183, 0.959);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-width: 30%;
+    text-decoration: none;
+
+}
+
+.title {
+    text-align: center;
+    padding: 8px;
+    margin-bottom: 0px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.link {
+    text-decoration: none;
+    color:black;
+}
+
+.link:hover,
+.link:focus {
+    color: gray;
+}
+
+.authors {
+    padding: 8px;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+.info {
+  border: 2px solid bisque;
+  outline: none;
+  box-shadow: 1px 1px 5px bisque;
+  border-radius: 10px;
+  background-color:  rgba(255, 255, 255);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  margin: auto;
+  margin-bottom: 2em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+}
+
+.info:hover {
+    color: gray;
+    cursor: pointer;
+}
+
+.image,
+.noimage {
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+}

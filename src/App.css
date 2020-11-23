@@ -1,0 +1,133 @@
+html {
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 500;
+}
+
+.body {
+  height: 100%;
+}
+
+
+.form-group {
+  background-image: url('./img/backgr.jpg');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  place-content: center;
+  place-items: center;
+  margin-bottom: 0;
+  padding-bottom: 14em;
+  padding-top: 14em;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+ .form-control {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 22em;
+  height: 3.25em;
+  border: none;
+  box-shadow: 1px 1px 5px white;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+  margin: auto;
+  padding: 2px;
+  text-align: center;
+  margin-top: 5em;
+  font-family: 'Raleway', sans-serif;
+ }
+
+ .form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: black;
+  opacity: 1; /* Firefox */
+}
+
+.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: black;
+}
+
+.form-control::-ms-input-placeholder { /* Microsoft Edge */
+  color: black;
+}
+
+ #searchContainer input[type=text]:focus:not([readonly]) {
+  border: 0px;
+  outline: none;
+  box-shadow: 1px 1px 5px white;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+#button:focus:not([readonly]) {
+  border: 0px;
+  outline: none;
+  box-shadow: 1px 1px 5px white;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+
+
+.button {
+  border: 0px;
+  outline: none;
+  box-shadow: 1px 1px 5px white;
+  border-radius: 10px;
+  background-color:  rgba(255, 255, 255, 0.75);
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  margin: auto;
+  margin-top: 2em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.books {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+
+
+ .footer {
+  background-color: rgba(255, 255, 255, 0.25);
+  color: black;
+  display:block;
+  padding: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+#socialMedia div {
+  display:inline-block;
+  vertical-align: middle;
+  justify-content: space-between;
+}
+
+#socialMedia {
+  margin-bottom: 10px;
+}
+.email,
+.github {
+  color: black;
+}
+
+
+
+
+@media only screen and (max-width: 300px) {
+  .form-control {
+    width: 18em;
+      }
+}
